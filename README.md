@@ -1,0 +1,1 @@
+This project is a basic gym website created using HTML, CSS, and JavaScript. It provides an overview of the gym's services  and facilities options. The website is designed with a static layout and is not responsive.
