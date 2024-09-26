@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="about-bg">
+    <div class="mid">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    </div>
+    <div class="left">
+        <img src="img/logo.png" alt="Aaron">
+    </div>
+    <header>
+        <h1>About our Gym</h1>
+        <h3>Learn more about our mission, vision, and values.</h3>
+    </header>
+        <section class="ab" onclick="showPopup('popup1')">
+            <h2>Our Story</h2>
+        </section>
+        <section class="ab" onclick="showPopup('popup2')">
+            <h2>Our Vision</h2>
+        </section>
+        <section class="ab" onclick="showPopup('popup3')">
+            <h2>Our Team</h2>
+        </section>
+        <div id="popup1" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup1')">&times;</span>
+                <h2>Our Story</h2>
+                <p>Founded in 2010, Aaron Gym began as a small community space dedicated to promoting health and fitness. We've since grown into a premier facility known for personalized training and supportive atmosphere.</p>
+            </div>
+        </div>
+        <div id="popup2" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup2')">&times;</span>
+                <h2>Our Vision</h2>
+                <p>At Aaron Gym, we envision a world where fitness is accessible and enjoyable for everyone. Our goal is to inspire healthier lifestyles and foster a strong, inclusive fitness community.</p>
+            </div>
+        </div>
+        <div id="popup3" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup('popup3')">&times;</span>
+                <h2>Our Team</h2>
+                <p>Our dedicated team of certified trainers and fitness experts is committed to helping you achieve your goals. With diverse specialties, we provide tailored support and motivation for every member.</p>
+            </div>
+        </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
